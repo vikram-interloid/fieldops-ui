@@ -1,4 +1,26 @@
 :root {
-    --primary: #3498db;
-    --background : #f5f5f5
+    /* Brand */
+    --primary: #009797;
+    --primary-hover: #007f7f;
+    --primary-light: #14b8b8;
+
+    /* Layout */
+    --background: #eef0f1;
+    --surface: #ffffff;
+
+    /* Sidebar */
+    --sidebar: #006d75;
+    --sidebar-dark: #0b525b;
+
+    /* Text */
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+
+    /* Status */
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+
+    /* Border */
+    --border: #e5e7eb;
 }
