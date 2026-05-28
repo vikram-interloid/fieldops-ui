@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 type PageContainerProps = Readonly<{
   children: React.ReactNode;
 }>;
@@ -5,5 +7,9 @@ type PageContainerProps = Readonly<{
 export function PageContainer({
   children,
 }: PageContainerProps) {
-  return <div>{children}</div>;
+  return (
+    <div className="mx-auto w-full max-w-[1600px]">
+      {children}
+    </div>
+  )
 }

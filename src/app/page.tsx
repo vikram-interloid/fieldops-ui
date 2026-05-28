@@ -1,9 +1,9 @@
-import Image from "next/image";
 
-export default function Home() {
+
+export default function HomePage() {
   return (
     <main>
-      <h1 className="text-3xl font-bold">FieldOps UI</h1>
+      <h1 className="text-2xl font-semibold">Dashboard Content</h1>
     </main>
   );
 }
